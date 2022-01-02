@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color:#FFF;
+}
+
+html, body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: inherit;
+  position: relative;
+  min-height: 100vh;
+  background: #0A1931;
+  color:#FFF;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #FFF;
+  border-radius: 100px;
+}
+body::-webkit-scrollbar-track {
+  background-color: #0a1931;
+}
+
+.container{
+  margin:auto;
+}
+
+/* Mobile */
+@media screen and (min-width: 992px) {
+  .rounded-lg-3 { border-radius: .3rem; }
+}
+
+@media screen and (min-width: 768px) {
+  .rounded-lg-3 { border-radius: .3rem; }
+}
+
+@media screen and (min-width: 576px) {
+  .rounded-lg-3 { border-radius: .3rem; }
+}
+
+
+/* Navigation */
+nav {
+    display: flex;
+    position: fixed;
+    height: 80px;
+}
+
+.navbar-brand{
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.aboutus > p{
+  text-align: right;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  z-index: 100;
+  position: relative;
+  top: 5px;
+  left: 18px;
+  font-size: 18px;
+  color:#FFF;
+}
+
+.rect{
+width: 161px;
+height: 40px;
+background: #01A826;
+border-radius: 60px;
+position: relative;
+top: 0px;
+}
+
+.btn{
+  position: relative;
+  background: #01A826;
+  border-radius: 60px;
+  width: 280px;
+  color:inherit;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn:hover{
+  background-color:#007219;
+}
+
+.rect:hover{
+  background-color:#007219;
+}
+.rect:active{
+  top: 10px;
+}
+
+.konten{
+  position: relative;
+  top: 280px; 
+}
+
+.konten > h3{
+  font-weight: bold;
+}
+
+img{
+  position: relative;
+  width: 35rem;
+  left: 680px;
+  top: -25px;
+}

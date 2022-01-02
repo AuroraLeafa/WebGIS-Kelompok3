@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color:#FFF;
+}
+
+html, body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  color:#FFF;
+}
+
+body{
+
+  font-family: inherit;
+  position: relative;
+  min-height: calc(100vh - 5rem);
+  background: #0A1931;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #FFF;
+  border-radius: 100px;
+}
+body::-webkit-scrollbar-track {
+  background-color: #0a1931;
+}
+
+.text{
+  color:#FFF;
+}
+
+.container{
+  margin:auto;
+}
+
+/* Mobile */
+@media screen and (min-width: 992px) {
+  .rounded-lg-3 { border-radius: .3rem; }
+}
+
+@media screen and (min-width: 768px) {
+  .rounded-lg-3 { border-radius: .3rem; }
+}
+
+@media screen and (min-width: 576px) {
+  .rounded-lg-3 { border-radius: .3rem; }
+}
+
+
+/* Navigation */
+nav {
+    display: flex;
+    position: fixed;
+    height: 80px;
+}
+
+.judul > a{
+  position: absolute;
+  left: 80px;
+  top: 15px;
+  z-index: 100;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2.3vw;
+    /* identical to box height */
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+  }
+
+nav a, p {
+  display: block;
+  font-size: 1em;
+  text-decoration: inherit;
+}
+
+.nav-active{
+  background-color: #0A1931;
+  box-shadow: 5px -1px 12px -5px;
+}
+
+.nav.aboutus > p{
+  text-align: right;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  z-index: 100;
+  position: relative;
+  top: 5px;
+  left: 18px;
+  font-size: 18px;
+  color:#FFF;
+}
+
+.rect{
+width: 161px;
+height: 40px;
+background: #01A826;
+border-radius: 60px;
+position: relative;
+top: 0px;
+}
+
+.rect:hover{
+  background-color:#007219;
+}
+.rect:active{
+  top: 10px;
+}
+
+footer{
+  text-align: center;
+}
