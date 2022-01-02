@@ -83,13 +83,13 @@ nav a, p {
   box-shadow: 5px -1px 12px -5px;
 }
 
-.nav .aboutus > p{
+.aboutus{
   text-align: right;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   z-index: 100;
-  position: relative;
+  position: absolute;
   top: 5px;
   left: 18px;
   font-size: 18px;
