@@ -78,6 +78,10 @@ nav a, p {
   text-decoration: inherit;
 }
 
+header > p{
+  color: #FFF;
+}
+
 .nav-active{
   background-color: #0A1931;
   box-shadow: 5px -1px 12px -5px;
